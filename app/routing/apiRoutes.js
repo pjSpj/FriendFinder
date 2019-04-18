@@ -1,10 +1,8 @@
-//let friends = require('../data/friends');
-import friends from '../data/friends.js'
+let friends = require('../data/friends');
 
 const path=require('path');
 
-//module.exports=function(app)
-export const = (app)=>{
+module.exports=function(app){
     app.get('/api/friends',function(req,res){
         res.json(friends);
     })

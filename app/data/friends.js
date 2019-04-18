@@ -28,4 +28,5 @@ let friends = [
 
 ]
 
-module.exports=friends;
+//module.exports=friends;
+export default friends;
